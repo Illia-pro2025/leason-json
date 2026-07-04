@@ -1,0 +1,29 @@
+{
+  "name": "leason-json",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Illia-pro2025/leason-json#readme",
+  "bugs": {
+    "url": "https://github.com/Illia-pro2025/leason-json/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Illia-pro2025/leason-json.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+ 
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "deploy": "npx gh-pages -d dist",
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "parcel": "^2.16.4"
+  }
+}
